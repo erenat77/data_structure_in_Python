@@ -1,3 +1,6 @@
+# erenat77
+# Copyright 2019
+
 class Stack():
      def __init__(self):
          self.items = []
