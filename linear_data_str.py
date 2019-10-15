@@ -1,5 +1,7 @@
 # erenat77
-# Copyright 2019
+# Copyright-2019
+# linear data structures
+#STACK definition
 
 class Stack():
      def __init__(self):
