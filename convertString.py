@@ -15,7 +15,15 @@ def toStr(n,base):
     while not rStack.isEmpty():
         res = res + str(rStack.pop())
     return res
-    
+
+def toStr2(n,base):
+   convertString = "0123456789ABCDEF"
+   if n < base:
+      return convertString[n]
+   else:
+      return toStr(n//base,base) + convertString[n%base]
+
 #-------------------------------------
 #-------------TEST--------------------
 print(toStr(1453,16))
+print(toStr2(1453,16))
